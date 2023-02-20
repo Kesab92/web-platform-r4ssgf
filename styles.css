@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: TIActuBeta-ExBold_web, Tahoma, sans-serif;
+  color: black;
+  background-color: white;
+}
+main {
+  padding: 1rem;
+}
+.s-Heading {
+  font-size: 2.375em;
+  margin-bottom: 50px;
+}
+.s-Technologies {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 0.3fr 0.6fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.s-Technologies__infos {
+  display: flex;
+  gap: 20px;
+}
+.s-AuthorDate {
+  display: flex;
+  gap: 8px;
+}
+.s-Author {
+  color: #8280ff;
+  font-size: 12px;
+  margin: 0;
+}
+.s-Date {
+  color: #8790ab;
+  font-size: 12px;
+}
+.s-Title {
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
+}
+.s-Title:hover {
+  color: #8280ff;
+}
+.s-Descriptions {
+  color: #8790ab;
+  margin: 0;
+}
+.s-Descriptions:hover {
+  color: #8280ff;
+}
+.s-Image {
+  width: 300px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
